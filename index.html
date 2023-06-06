@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desk</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__flex-container">
+                <div class="header__logo">
+                    <img src="img/main_logo.png" class="header__img">
+                </div>
+                <div class="header__nav menu" id="menu">
+                    <a class="header__link">Home</a>
+                    <a class="header__link">About Us</a>
+                    <a class="header__link">Our Recommendation</a>
+                    <a class="header__link">Benefit</a>
+                    <a class="header__link">Contact</a>
+                </div>
+                <div class="hamb-filed" id="hamb">
+                    <img src="svg/burger-menu.svg" class="hamb-img">
+                </div>
+                <button class="header__button2" id="open-modal__btn">Sign Up!</button>
+                <div id="modal" class="header__modal modal">
+                    <div class="modal__content">
+                        <h2 class="modal__h2">Register</h2>
+                        <p class="modal__p">Welcome to Desk, User!</p>
+                        <div class="header__form">
+                            <input type="text" class="header__input-button" placeholder="Nickname" size="20px">
+                        </div>
+                        <div class="header__form">
+                            <input type="text" class="header__input-button" placeholder="E-mail" size="20px">
+                        </div>
+                        <div class="header__form">
+                            <input type="text" class="header__input-button" placeholder="Password" size="20px">
+                        </div>
+                        <button class="modal__close">Sign up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="popup" id="popup"></div>
+			</div>
+        </div>
+        <section class="header__sec-1 sec-1">
+            <div class="container">
+                <div class="sec-1__flex">
+                    <div class="sec-1__block">
+                        <h1 class="sec-1__h1">Good Living Better Live</h1>
+                        <div class="sec-1__h-sentence">
+                            <h1 class="sec-1__h1 sec-1__h1_emptiness">Your Dreams&nbsp;</h1>
+                            <h1 class="sec-1__h1">Easily Here</h1>
+                        </div>
+                        <p class="sec-1__text">Everything you need about finding your place to live will be here, where it will be easier for you. Our furniture is made from selected and best quality materials that are suitable for your dream home</p>
+                    </div>
+                    <div class="sec-1__form">
+                        <div class="sec-1__form-block">
+                            <img class="sec-1__img" src="svg/map.svg">
+                            <input type="text" class="sec-1__input-button" placeholder="Search for the location you want!" size="30px">
+                        </div>
+                        <button class="sec-1__button">Search<img src="svg/arrow_vertical.svg"></button>
+                    </div>
+                </div>
+                <div class="sec-1__flex-logo">
+                    <div class="sec-1__block2">
+                        <p class="sec-1__p">Our Partnership</p>
+                        <div class="sec-1__logos">
+                            <img class="sec-1__logo" src="svg/logo2.svg">
+                            <img class="sec-1__logo" src="svg/logo5.svg">
+                            <img class="sec-1__logo" src="svg/logo3.svg">
+                            <img class="sec-1__logo" src="svg/logo4.svg">
+                        </div>
+                    </div>
+                    <div class="sec-1__block3">
+                        <div class="sec-1__mini-block sec-1__mini-block_block1">
+                            <img class="sec-1__mini-img sec-1__mini-img_img1" src="img/sec1-img3.png">
+                            <div class="sec-1__mini-text">
+                                <h5 class="sec-1__h5">1K+ People</h5>
+                                <p class="sec-1__mini-p">Successfully Getting Home</p>
+                            </div>
+                        </div>
+                        <div class="sec-1__mini-block sec-1__mini-block_block2">
+                            <img class="sec-1__mini-img sec-1__mini-img_img2" src="img/sec1-mini-img.png">
+                            <div class="sec-1__mini-text sec-1__mini-text_text1">
+                                <h5 class="sec-1__h5">56 Houses</h5>
+                                <p class="sec-1__mini-p">Sold Monthly</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <section class="sec-2">
+        <div class="container">
+            <div class="sec-2__tabs tabs">
+                <div class="tabs__nav tabs-nav">
+                    <div class="sec-2__h">
+                        <h6 class="sec-2__h6">Our Recommendation</h6>
+                        <h3 class="sec-2__h3">Featured House</h3>
+                    </div>
+                    <div class="tabs-nav__block">
+                        <div class="tabs-nav__item is-active tabs-nav__item1" data-tab-name="tab-1">House</div>
+                        <div class="tabs-nav__item tabs-nav__item2" data-tab-name="tab-2">Villa</div>
+                        <div class="tabs-nav__item tabs-nav__item3" data-tab-name="tab-3">Apartment</div>
+                    </div>
+                </div>
+                <div class="tabs__content">
+                    <div class="tab is-active tab-1">
+                        <div class="slider">
+                            <div class="slider__wrap">
+                                <div class="slider__controls">
+                                    <button class="slider__nav slider__nav-left">&lt;</button>
+                                    <div class="slider__dots">
+                                        <div class="dot dot-active"></div>
+                                        <div class="dot"></div>
+                                    </div>
+                                    <button class="slider__nav slider__nav-right">&gt;</button>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="slider__grid grid">
+                                        <div class="grid__card grid__1">
+                                            <img class="grid__img" src="img/sec2-img1.png">
+                                        </div>
+                                        <div class="grid__card grid__2">
+                                            <img class="grid__img" src="img/sec2-img2.png">
+                                        </div>
+                                        <div class="grid__card grid__3">
+                                            <img class="grid__img" src="img/sec2-img3.png">
+                                        </div>
+                                        <h4 class="grid__h4 grid__4">Woodlandside</h4>
+                                        <h4 class="grid__h4 grid__5">The Old Lighthouse</h4>
+                                        <h4 class="grid__h4 grid__6">Cosmo's House</h4>
+                                        <p class="grid__p grid__7">$ 20.000.000</p>
+                                        <p class="grid__p grid__8">$ 44.000.000</p>
+                                        <p class="grid__p grid__9">$ 22.000.000</p>
+                                        <div class="grid__block grid__10">
+                                            <img class="grid__people" src="img/robert.png">
+                                            <div class="grid__text">
+                                                <h5 class="grid__h5">Robert Fox</h5>
+                                                <p class="grid__small-text">Dr. San Jose, South Dakota</p>
+                                            </div>
+                                        </div>
+                                        <div class="grid__block grid__11">
+                                            <img class="grid__people" src="img/ronald.png">
+                                            <div class="grid__text">
+                                                <h5 class="grid__h5">Ronald Richards</h5>
+                                                <p class="grid__small-text">Santa Ana, Illinois</p>
+                                            </div>
+                                        </div>
+                                        <div class="grid__block grid__12">
+                                            <img class="grid__people" src="img/jenny.png">
+                                            <div class="grid__text">
+                                                <h5 class="grid__h5">Jenny Wilson</h5>
+                                                <p class="grid__small-text">Preston Rd. Inglewood, Maine 98380</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="slider__grid grid">
+                                        <div class="grid__card grid__1">
+                                            <img class="grid__img" src="img/sec2-img4.png">
+                                        </div>
+                                        <div class="grid__card grid__2">
+                                            <img class="grid__img" src="img/sec2-img5.png">
+                                        </div>
+                                        <div class="grid__card grid__3">
+                                            <img class="grid__img" src="img/sec2-img6.png">
+                                        </div>
+                                        <h4 class="grid__h4 grid__4">Sundays</h4>
+                                        <h4 class="grid__h4 grid__5">The Modern House</h4>
+                                        <h4 class="grid__h4 grid__6">Newland House</h4>
+                                        <p class="grid__p grid__7">$ 25.000.000</p>
+                                        <p class="grid__p grid__8">$ 40.000.000</p>
+                                        <p class="grid__p grid__9">$ 35.000.000</p>
+                                        <div class="grid__block grid__10">
+                                            <img class="grid__people" src="img/jenny.png">
+                                            <div class="grid__text">
+                                                <h5 class="grid__h5">Jenny Wilson</h5>
+                                                <p class="grid__small-text">Preston Rd. Inglewood, Maine 98380</p>
+                                            </div>
+                                        </div>
+                                        <div class="grid__block grid__11">
+                                            <img class="grid__people" src="img/robert.png">
+                                            <div class="grid__text">
+                                                <h5 class="grid__h5">Robert Fox</h5>
+                                                <p class="grid__small-text">Dr. San Jose, South Dakota</p>
+                                            </div>
+                                        </div>
+                                        <div class="grid__block grid__12">
+                                            <img class="grid__people" src="img/ronald.png">
+                                            <div class="grid__text">
+                                                <h5 class="grid__h5">Ronald Richards</h5>
+                                                <p class="grid__small-text">Santa Ana, Illinois</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab tab-2">
+                        <div class="tab-2__flex">
+                            <div class="myBtnContainer">
+                                <button class="btn" onclick="filterSelection('all')">All</button>
+                                <button class="btn" onclick="filterSelection('new')">New</button>
+                                <button class="btn" onclick="filterSelection('popular')">Popular</button>
+                                <button class="btn" onclick="filterSelection('best')">Best Deals</button>
+                            </div>
+                            <div class="tab-2__filter-container">
+                                <div class="filterDiv new">
+                                    <div class="tab-2__img-block">
+                                        <img class="tab-2__img" src="img/villa_img1.png">
+                                    </div>
+                                    <h3 class="tab-2__h3">Waterpool Heaven</h3>
+                                    <p class="tab-2__p">$ 50.000.000</p>
+                                </div>
+                                <div class="filterDiv best">
+                                    <div class="tab-2__img-block">
+                                        <img class="tab-2__img" src="img/villa_img2.png">
+                                    </div>
+                                    <h3 class="tab-2__h3">Sweet House</h3>
+                                    <p class="tab-2__p">$ 34.000.000</p>
+                                </div>
+                                <div class="filterDiv popular">
+                                    <div class="tab-2__img-block">
+                                        <img class="tab-2__img" src="img/villa_img3.png">
+                                    </div>
+                                    <h3 class="tab-2__h3">Mountainland</h3>
+                                    <p class="tab-2__p">$ 42.000.000</p>
+                                </div>
+                                <div class="filterDiv new">
+                                    <div class="tab-2__img-block">
+                                        <img class="tab-2__img" src="img/villa_img4.png">
+                                    </div>
+                                    <h3 class="tab-2__h3">Mermeow's House</h3>
+                                    <p class="tab-2__p">$ 25.000.000</p>
+                                </div>
+                                <div class="filterDiv best">
+                                    <div class="tab-2__img-block">
+                                        <img class="tab-2__img" src="img/villa_img5.png">
+                                    </div>
+                                    <h3 class="tab-2__h3">Catwoods</h3>
+                                    <p class="tab-2__p">$ 44.000.000</p>
+                                </div>
+                                <div class="filterDiv popular">
+                                    <div class="tab-2__img-block">
+                                        <img class="tab-2__img" src="img/villa_img6.png">
+                                    </div>
+                                    <h3 class="tab-2__h3">Faraway House</h3>
+                                    <p class="tab-2__p">$ 50.000.000</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="tab tab-3">
+                        <div class="slider__grid grid">
+                            <div class="grid__card grid__1">
+                                <img class="grid__img" src="img/sec2-img4.png">
+                            </div>
+                            <div class="grid__card grid__2">
+                                <img class="grid__img" src="img/sec2-img5.png">
+                            </div>
+                            <div class="grid__card grid__3">
+                                <img class="grid__img" src="img/sec2-img6.png">
+                            </div>
+                            <h4 class="grid__h4 grid__4">Sundays</h4>
+                            <h4 class="grid__h4 grid__5">The Modern House</h4>
+                            <h4 class="grid__h4 grid__6">Newland House</h4>
+                            <p class="grid__p grid__7">$ 25.000.000</p>
+                            <p class="grid__p grid__8">$ 40.000.000</p>
+                            <p class="grid__p grid__9">$ 35.000.000</p>
+                            <div class="grid__block grid__10">
+                                <img class="grid__people" src="img/jenny.png">
+                                <div class="grid__text">
+                                    <h5 class="grid__h5">Jenny Wilson</h5>
+                                    <p class="grid__small-text">Preston Rd. Inglewood, Maine 98380</p>
+                                </div>
+                            </div>
+                            <div class="grid__block grid__11">
+                                <img class="grid__people" src="img/robert.png">
+                                <div class="grid__text">
+                                    <h5 class="grid__h5">Robert Fox</h5>
+                                    <p class="grid__small-text">Dr. San Jose, South Dakota</p>
+                                </div>
+                            </div>
+                            <div class="grid__block grid__12">
+                                <img class="grid__people" src="img/ronald.png">
+                                <div class="grid__text">
+                                    <h5 class="grid__h5">Ronald Richards</h5>
+                                    <p class="grid__small-text">Santa Ana, Illinois</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-3">
+        <div class="container">
+            <div class="sec-3__flex">
+                <div class="sec-3__half-block1">
+                    <div class="sec-3__block">
+                        <h6 class="sec-3__h6">Benefit</h6>
+                        <h3 class="sec-3__h3">Benefit You Get When Using Our Services</h3>
+                    </div>
+                    <div class="sec-3__block">
+                        <h1 class="sec-3__h1">600+</h1>
+                        <p class="sec-3__p">Home Furniture throughout Indonesia</p>
+                    </div>
+                    <div class="sec-3__block">
+                        <h1 class="sec-3__h1">135+</h1>
+                        <p class="sec-3__p">Staff ready to help you</p>
+                    </div>
+                </div>
+                <div class="sec-3__half-block2">
+                    <div class="sec-3__div">
+                        <img class="sec-3__svg" src="svg/sec3_calendar.svg">
+                        <div class="sec-3__text">
+                            <h4 class="sec-3__h4">Best Quality</h4>
+                            <p class="sec-3__small-text">All of our funiture uses the best materials and choices for our customers.</p>
+                        </div>
+                    </div>
+                    <div class="sec-3__div">
+                        <img class="sec-3__svg" src="svg/sec3_budilnik.svg">
+                        <div class="sec-3__text">
+                            <h4 class="sec-3__h4">Free Shipping</h4>
+                            <p class="sec-3__small-text">All of our funiture uses the best materials and choices for our customers.</p>
+                        </div>
+                    </div>
+                    <div class="sec-3__div">
+                        <img class="sec-3__svg" src="svg/sec3_home.svg">
+                        <div class="sec-3__text">
+                            <h4 class="sec-3__h4">Space Customization</h4>
+                            <p class="sec-3__small-text">All of our funiture uses the best materials and choices for our customers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__logo">
+                <img src="img/main_logo.png" class="footer__img">
+            </div>
+            <div class="footer__flex-container">
+                <div class="footer__flex">
+                    <p class="footer__p">
+                        We provide information about properties such as houses, villas and apartments to help people find their dream home
+                    </p>
+                    <h6 class="footer__h6">Subscribe to our newsletter!</h6>
+                    <div class="footer__form">
+                        <img class="footer__svg" src="svg/sms.svg">
+                        <input type="text" class="footer__input-button" placeholder="Your mail here">
+                        <button class="footer__button">Subscribe Now</button>
+                    </div>
+                </div>
+                <div class="footer__flex-nav">
+                    <h5 class="footer__h5">Menu</h5>
+                    <a class="footer__link">Home</a>
+                    <a class="footer__link">About Us</a>
+                    <a class="footer__link">Our Recommendation</a>
+                    <a class="footer__link">Benefit</a>
+                </div>
+                <div class="footer__flex-nav">
+                    <h5 class="footer__h5">Contact</h5>
+                    <p class="footer__text">Medan, South Sumatera</p>
+                    <p class="footer__text">(62) 81312120001</p>
+                    <p class="footer__text">halo@homedesk.com</p>
+                </div>
+            </div>
+            <div class="footer__policy">
+                <div class="footer__block1">
+                    <a class="footer__link-policy">Terms & Conditions</a>
+                    <a class="footer__link-policy">Privacy Policy</a>
+                </div>
+                <div class="footer__block2">
+                    <div class="footer__svg-block"><img class="footer__icon" src="svg/facebook.svg"></div>
+                    <div class="footer__svg-block"><img class="footer__icon" src="svg/twitter.svg"></div>
+                    <div class="footer__svg-block"><img class="footer__icon" src="svg/instagram.svg"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/tab.js"></script>
+    <script src="js/filter.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
