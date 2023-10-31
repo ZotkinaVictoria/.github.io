@@ -1,0 +1,370 @@
+@media (max-width: 1400px){
+    .nav-link{
+        &_link{
+            &:last-child{
+                margin-right: 0px;
+            }
+            &:first-child{
+                margin-left: 40%;
+            }
+        }
+    }
+    .section1{
+        &_block1{
+            max-width: 50%;
+        }
+    }
+    .accordion{
+        height: 860px;
+    }
+}
+@media (max-width: 1200px){
+    .nav-link{
+        &_link{
+            margin-right: 20%;
+            &:last-child{
+                margin-right: 0px;
+            }
+            &:first-child{
+                margin-left: 30%;
+            }
+        }
+    }
+    .section1{
+        background: url(../img/section1_background.png);
+        background-repeat: no-repeat;
+        &_h6{
+            padding-top: 13%;
+            margin-bottom: 10%;
+            font-size: 16px;
+        }
+        &_h1{
+            font-size: 42px;
+            margin-bottom: 15%;
+        }
+        &_block1{
+            padding-left: 4%;
+        }
+        &_btn1{
+            height: 78px;
+            font-size: 18px;
+            padding-left: 8%;
+            padding-right: 8%;
+            margin-right: 5%;
+        }
+        &_btn2{
+            height: 78px;
+            font-size: 18px;
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+    }
+    .section3{
+        margin-top: 10%;
+        &_text{
+            font-size: 14px;
+        }
+        &_h2{
+            font-size: 26px;
+        }
+        &_h1{
+            font-size: 80px;
+        }
+    }
+    .accordion{
+        height: 760px;
+        background-size: 96%;
+        &_svg{
+            height: 46px;
+            width: 46px;
+        }
+    }
+    .accordion-button{
+        font-size: 18px;
+    }
+    .section4{
+        margin-top: 10%;
+        &_text{
+            font-size: 14px;
+        }
+        &_h2{
+            font-size: 26px;
+        }
+        &_h1{
+            font-size: 80px;
+        }
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: auto;
+    }
+    .section5{
+        &_h2{
+            font-size: 80px;
+        }
+        &_h1{
+            font-size: 80px;
+        }
+        &_btn{
+            font-size: 22px;
+        }
+        &_img{
+            max-width: 50%;
+            max-height: 50%;
+        }
+    }
+    .footer{
+        margin-top: 12%;
+        &_flex{
+            margin-top: 7%;
+            margin-bottom: 7%;
+        }
+        &_h1{
+            font-size: 22px;
+        }
+    }
+}
+@media (max-width: 992px){
+    .nav-link{
+        &_link{
+            padding-top: 3%;
+            margin-right: 10%;
+            &:last-child{
+                margin-right: 0px;
+            }
+            &:first-child{
+                margin-left: 0px;
+            }
+        }
+    }
+    .header-icons{
+        display: none!important;
+        &_media{
+            display: block!important;
+        }
+        &_icon{
+            margin-top: 3%;
+            margin-right: 8%;
+            &:last-child{
+                margin-right: 0px;
+            }
+        }
+    }
+    .section1{
+        height: 500px;
+        background: url(../img/section1_background.png);
+        background-repeat: no-repeat;
+        &_img{
+            max-width: 100%;
+        }
+        &_h1{
+            font-size: 32px;
+        }
+        &_block1{
+            margin-right: 5%;
+            padding-left: 0px;
+            max-width: 45%;
+        }
+        &_btn1{
+            font-size: 16px;
+        }
+        &_btn2{
+            font-size: 16px;
+        }
+    }
+    .section3{
+        margin-top: 15%;
+        &_text{
+            font-size: 14px;
+        }
+        &_h2{
+            font-size: 26px;
+        }
+        &_h1{
+            font-size: 64px;
+        }
+    }
+    .accordion{
+        height: 650px;
+        background-size: 98%;
+    }
+    .accordion-button{
+        font-size: 18px;
+    }
+    .section4{
+        margin-top: 10%;
+        &_text{
+            font-size: 14px;
+        }
+        &_h2{
+            font-size: 26px;
+        }
+        &_h1{
+            font-size: 64px;
+        }
+    }
+    .section5{
+        &_h2{
+            font-size: 64px;
+        }
+        &_h1{
+            font-size: 64px;
+        }
+        &_btn{
+            font-size: 20px;
+            height: 78px;
+        }
+        &_img{
+            max-width: 50%;
+            max-height: 50%;
+        }
+    }
+    .footer{
+        &_flex{
+            display: none!important;
+        }
+        &_flex2{
+            margin-top: 7%;
+            margin-bottom: 7%;
+            display: flex!important;
+        }
+        &_card{
+            margin-bottom: 6%;
+            &:last-child{
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+    .section1{
+        height: 400px;
+        &_img{
+            display: none;
+        }
+        &_block1{
+            margin-right: 0px;
+            padding-left: 0px;
+            max-width: 80%;
+        }
+    }
+    .accordion-xxl{
+        display: none;
+    }
+    .accordion{
+        height: auto;
+        background: none;
+    }
+    .accordion-sm{
+        display: block;
+    }
+    .section4{
+        margin-top: 17%;
+    }
+    .section5{
+        &_container{
+            justify-content: center!important;
+            align-items: center!important;
+            text-align: center;
+        }
+        &_h2{
+            font-size: 64px;
+        }
+        &_h1{
+            font-size: 64px;
+        }
+        &_btn{
+            font-size: 20px;
+            height: 78px;
+            width: 100%;
+        }
+        &_img{
+            display: none;
+        }
+    }
+    .footer{
+        margin-top: 25%;
+        &_flex2{
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+    }
+}
+@media (max-width: 576px){
+    .section1{
+        background: none;
+    }
+    .section3{
+        margin-top: 15%;
+        &_text{
+            font-size: 14px;
+        }
+        &_h2{
+            font-size: 22px;
+        }
+        &_h1{
+            font-size: 54px;
+        }
+    }
+    .section4{
+        margin-top: 10%;
+        &_text{
+            font-size: 14px;
+        }
+        &_h2{
+            font-size: 22px;
+        }
+        &_h1{
+            font-size: 54px;
+        }
+    }
+    .section5{
+        &_container{
+            justify-content: center!important;
+            align-items: center!important;
+            text-align: center;
+        }
+        &_h2{
+            font-size: 54px;
+        }
+        &_h1{
+            font-size: 54px;
+        }
+        &_btn{
+            font-size: 18px;
+            height: 76px;
+            width: 100%;
+        }
+        &_img{
+            display: none;
+        }
+    }
+}
+@media (min-width: 320px) and (max-width:425px){
+    .section1{
+        &_block1{
+            max-width: 100%;
+        }
+    }
+    .section3{
+        margin-top: 30%;
+    }
+    .section4{
+        margin-top: 30%;
+    }
+    .section5{
+        margin-top: 30%;
+    }
+    .footer{
+        margin-top: 40%;
+        &_flex2{
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+        &_h1{
+            font-size: 20px;
+        }
+        &_p{
+            font-size: 16px;
+        }
+    }
+}
